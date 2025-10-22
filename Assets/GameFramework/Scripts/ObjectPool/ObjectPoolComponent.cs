@@ -35,50 +35,46 @@ namespace GameFramework.ObjectPool
         }
 
         /// <summary>
-        /// 創建對象池
+        /// 創建對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
         /// <param name="createFunc">創建對象函數</param>
         /// <param name="onSpawn">獲取對象回調</param>
         /// <param name="onUnspawn">歸還對象回調</param>
         /// <param name="onDestroy">銷毀對象回調</param>
         /// <returns>對象池</returns>
-        public IObjectPool<T> CreateObjectPool<T>(string name, Func<T> createFunc, Action<T> onSpawn = null, Action<T> onUnspawn = null, Action<T> onDestroy = null) where T : class
+        public IObjectPool<T> CreateObjectPool<T>(Func<T> createFunc, Action<T> onSpawn = null, Action<T> onUnspawn = null, Action<T> onDestroy = null) where T : class
         {
-            return m_ObjectPoolManager.CreateObjectPool(name, createFunc, onSpawn, onUnspawn, onDestroy);
+            return m_ObjectPoolManager.CreateObjectPool(createFunc, onSpawn, onUnspawn, onDestroy);
         }
 
         /// <summary>
-        /// 獲取對象池
+        /// 獲取對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
         /// <returns>對象池</returns>
-        public IObjectPool<T> GetObjectPool<T>(string name) where T : class
+        public IObjectPool<T> GetObjectPool<T>() where T : class
         {
-            return m_ObjectPoolManager.GetObjectPool<T>(name);
+            return m_ObjectPoolManager.GetObjectPool<T>();
         }
 
         /// <summary>
-        /// 檢查是否存在對象池
+        /// 檢查是否存在對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
         /// <returns>是否存在</returns>
-        public bool HasObjectPool<T>(string name) where T : class
+        public bool HasObjectPool<T>() where T : class
         {
-            return m_ObjectPoolManager.HasObjectPool<T>(name);
+            return m_ObjectPoolManager.HasObjectPool<T>();
         }
 
         /// <summary>
-        /// 銷毀對象池
+        /// 銷毀對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
-        public void DestroyObjectPool<T>(string name) where T : class
+        public void DestroyObjectPool<T>() where T : class
         {
-            m_ObjectPoolManager.DestroyObjectPool<T>(name);
+            m_ObjectPoolManager.DestroyObjectPool<T>();
         }
     }
 }

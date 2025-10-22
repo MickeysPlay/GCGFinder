@@ -2,7 +2,8 @@
     "name": "GameMain",
     "rootNamespace": "GameMain",
     "references": [
-        "GameFramework"
+        "GameFramework",
+        "Unity.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

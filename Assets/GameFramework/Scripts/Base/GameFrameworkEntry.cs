@@ -28,6 +28,16 @@ namespace GameFramework
                 throw new Exception($"You must get a Game Framework module, but '{interfaceType.FullName}' is not.");
             }
 
+            // 檢查是否已經創建
+            foreach (GameFrameworkModule module in s_GameFrameworkModules)
+            {
+                if (interfaceType.IsAssignableFrom(module.GetType()))
+                {
+                    return module as T;
+                }
+            }
+
+            // 尚未創建，使用預設規則創建
             string moduleName = interfaceType.FullName.Substring(17); // 移除 "GameFramework.I" 前綴
             Type moduleType = Type.GetType($"GameFramework.{moduleName}");
             if (moduleType == null)
@@ -36,6 +46,32 @@ namespace GameFramework
             }
 
             return GetModule(moduleType) as T;
+        }
+
+        /// <summary>
+        /// 獲取或創建指定類型的遊戲框架模組
+        /// </summary>
+        /// <typeparam name="TInterface">介面類型</typeparam>
+        /// <typeparam name="TImplementation">實作類型</typeparam>
+        /// <returns>要獲取的遊戲框架模組</returns>
+        public static TInterface GetModule<TInterface, TImplementation>()
+            where TInterface : class
+            where TImplementation : GameFrameworkModule, TInterface
+        {
+            Type interfaceType = typeof(TInterface);
+            Type implementationType = typeof(TImplementation);
+
+            // 檢查是否已經創建
+            foreach (GameFrameworkModule module in s_GameFrameworkModules)
+            {
+                if (interfaceType.IsAssignableFrom(module.GetType()))
+                {
+                    return module as TInterface;
+                }
+            }
+
+            // 尚未創建，創建指定實作
+            return GetModule(implementationType) as TInterface;
         }
 
         /// <summary>

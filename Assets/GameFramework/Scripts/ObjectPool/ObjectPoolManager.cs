@@ -41,23 +41,23 @@ namespace GameFramework.ObjectPool
         }
 
         /// <summary>
-        /// 創建對象池
+        /// 創建對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
         /// <param name="createFunc">創建對象函數</param>
         /// <param name="onSpawn">獲取對象回調</param>
         /// <param name="onUnspawn">歸還對象回調</param>
         /// <param name="onDestroy">銷毀對象回調</param>
         /// <returns>對象池</returns>
-        public IObjectPool<T> CreateObjectPool<T>(string name, Func<T> createFunc, Action<T> onSpawn = null, Action<T> onUnspawn = null, Action<T> onDestroy = null) where T : class
+        public IObjectPool<T> CreateObjectPool<T>(Func<T> createFunc, Action<T> onSpawn = null, Action<T> onUnspawn = null, Action<T> onDestroy = null) where T : class
         {
-            string key = GetObjectPoolKey<T>(name);
+            string key = GetObjectPoolKey<T>();
             if (m_ObjectPools.ContainsKey(key))
             {
                 throw new Exception($"Object pool '{key}' is already exist.");
             }
 
+            string name = typeof(T).Name;
             ObjectPool<T> objectPool = new ObjectPool<T>(name, createFunc, onSpawn, onUnspawn, onDestroy);
             m_ObjectPools.Add(key, objectPool);
 
@@ -65,14 +65,13 @@ namespace GameFramework.ObjectPool
         }
 
         /// <summary>
-        /// 獲取對象池
+        /// 獲取對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
         /// <returns>對象池</returns>
-        public IObjectPool<T> GetObjectPool<T>(string name) where T : class
+        public IObjectPool<T> GetObjectPool<T>() where T : class
         {
-            string key = GetObjectPoolKey<T>(name);
+            string key = GetObjectPoolKey<T>();
             if (m_ObjectPools.TryGetValue(key, out object objectPool))
             {
                 return objectPool as IObjectPool<T>;
@@ -82,25 +81,23 @@ namespace GameFramework.ObjectPool
         }
 
         /// <summary>
-        /// 檢查是否存在對象池
+        /// 檢查是否存在對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
         /// <returns>是否存在</returns>
-        public bool HasObjectPool<T>(string name) where T : class
+        public bool HasObjectPool<T>() where T : class
         {
-            string key = GetObjectPoolKey<T>(name);
+            string key = GetObjectPoolKey<T>();
             return m_ObjectPools.ContainsKey(key);
         }
 
         /// <summary>
-        /// 銷毀對象池
+        /// 銷毀對象池（自動使用類型名稱）
         /// </summary>
         /// <typeparam name="T">對象類型</typeparam>
-        /// <param name="name">對象池名稱</param>
-        public void DestroyObjectPool<T>(string name) where T : class
+        public void DestroyObjectPool<T>() where T : class
         {
-            string key = GetObjectPoolKey<T>(name);
+            string key = GetObjectPoolKey<T>();
             if (m_ObjectPools.TryGetValue(key, out object objectPool))
             {
                 (objectPool as IObjectPool<T>)?.Destroy();
@@ -108,9 +105,9 @@ namespace GameFramework.ObjectPool
             }
         }
 
-        private string GetObjectPoolKey<T>(string name)
+        private string GetObjectPoolKey<T>()
         {
-            return $"{typeof(T).FullName}.{name}";
+            return typeof(T).FullName;
         }
     }
 }
