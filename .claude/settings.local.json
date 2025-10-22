@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(tree:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.drflower.top)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
