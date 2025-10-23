@@ -6,7 +6,7 @@ namespace GameFramework
     /// 基礎組件，負責驅動框架更新
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Framework/Base")]
+    [AddComponentMenu("Game Framework/BaseComponent")]
     public sealed class BaseComponent : GameFrameworkComponent
     {
         private void Update()
