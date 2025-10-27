@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cf81c85f95fe47e1a27f6ae460cf182c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275183
+  packageName: Hand Drawn UI Pack
+  packageVersion: 1.0
+  assetPath: Assets/Virtuoso Visions/Hand Drawn UI Pack/TextMesh Pro/Shaders/TMP_Sprite.shader
+  uploadId: 639364

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 64eb5848573ad6940b3c6e48fc1bbc4d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Font Awesome 5 Free
+  fontNames:
+  - Font Awesome 5 Free
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 138812
+  packageName: Extra Clean UI
+  packageVersion: 1.0
+  assetPath: Assets/Extra Clean UI/Fonts/Font Awesome 5 Free-Solid-900.otf
+  uploadId: 291881

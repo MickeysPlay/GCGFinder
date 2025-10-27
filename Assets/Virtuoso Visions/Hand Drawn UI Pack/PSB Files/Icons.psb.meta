@@ -1,0 +1,1533 @@
+fileFormatVersion: 2
+guid: 9bbb9d2e04b71fa4687073b69cd35b37
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275183
+  packageName: Hand Drawn UI Pack
+  packageVersion: 1.0
+  assetPath: Assets/Virtuoso Visions/Hand Drawn UI Pack/PSB Files/Icons.psb
+  uploadId: 639364
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: Arrow_Down_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1648
+      width: 403
+      height: 613
+    spriteID: 2434c9eb82438f942a847754096ba974
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1648}
+    spritePosition: {x: 2159, y: 118}
+  - name: Arrow_Down_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2269
+      width: 403
+      height: 613
+    spriteID: ee7acdad2203a2a4c912d3994946307d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2269}
+    spritePosition: {x: 2159, y: 818}
+  - name: Arrow_Up_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2890
+      width: 403
+      height: 613
+    spriteID: 2823894abdcaf4b4c97ea0610acc4585
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2890}
+    spritePosition: {x: 1660, y: 118}
+  - name: Arrow_Up_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 4
+      width: 403
+      height: 613
+    spriteID: b7a4aaefe0f4072478861ad22919deaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 4}
+    spritePosition: {x: 1659, y: 818}
+  - name: Arrow_Left_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 620
+      height: 403
+    spriteID: 4e3c751ad92a9c74cb7885418393d6f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 850, y: 223}
+  - name: Arrow_Left_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 415
+      width: 620
+      height: 403
+    spriteID: 187cd0b154bb7f64f8ae87099be2a870
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 415}
+    spritePosition: {x: 850, y: 923}
+  - name: Arrow_Right_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 826
+      width: 620
+      height: 403
+    spriteID: b1be5f69801eece4c902d2922edd2e3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 826}
+    spritePosition: {x: 150, y: 223}
+  - name: Arrow_Right_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1237
+      width: 620
+      height: 403
+    spriteID: 6e0ee38b6ed002d4b9923bb8256906ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1237}
+    spritePosition: {x: 150, y: 923}
+  - name: Bolt_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 3511
+      width: 157
+      height: 327
+    spriteID: 786edaa5026089344b6cb9dafb51fa29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 3511}
+    spritePosition: {x: 4482, y: 1661}
+  - name: Bolt_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 1648
+      width: 157
+      height: 327
+    spriteID: 0464ee37fb01b0241ae288568edbfba1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 1648}
+    spritePosition: {x: 4282, y: 1660}
+  - name: Water_Drop_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 2269
+      width: 161
+      height: 244
+    spriteID: a4d22ec3ed80d4648af1a92d802acd03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 2269}
+    spritePosition: {x: 4030, y: 1703}
+  - name: Water_Drop_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 2521
+      width: 161
+      height: 244
+    spriteID: 1ecd87758cbbd3348abdc2cbbd4dedc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 2521}
+    spritePosition: {x: 3780, y: 1703}
+  - name: Cash_Icon_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 3846
+      width: 169
+      height: 242
+    spriteID: 1fc9c6ca4c95bb842b69c506c1fe0ba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 3846}
+    spritePosition: {x: 3526, y: 1704}
+  - name: Cash_Icon_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 1983
+      width: 169
+      height: 242
+    spriteID: f9e5513e75c7eb44da721e15889ff20a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 1983}
+    spritePosition: {x: 3226, y: 1704}
+  - name: Coin_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3511
+      width: 426
+      height: 426
+    spriteID: a0ac7b37e8680ba498d57af70d6f9a70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3511}
+    spritePosition: {x: 2647, y: 1612}
+  - name: Coin_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1043
+      y: 4
+      width: 426
+      height: 426
+    spriteID: e75a7cc46cffdb64e86c9371ab81de95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1043, y: 4}
+    spritePosition: {x: 2147, y: 1612}
+  - name: Diamond_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 625
+      width: 381
+      height: 368
+    spriteID: 56041d7999ad1d6408d07c52711afaaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 625}
+    spritePosition: {x: 1670, y: 1641}
+  - name: Diamond_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 1001
+      width: 381
+      height: 368
+    spriteID: 95f904a47562da64fa9299e658b6d536
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 1001}
+    spritePosition: {x: 1170, y: 1641}
+  - name: Heart_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 1377
+      width: 398
+      height: 341
+    spriteID: bebe341ebfd8c36419701df1ebed3698
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 1377}
+    spritePosition: {x: 661, y: 1654}
+  - name: Heart_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 1726
+      width: 398
+      height: 341
+    spriteID: a482ca99ad142894f90604a6b2a82046
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 1726}
+    spritePosition: {x: 161, y: 1654}
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: Arrow_Down_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1648
+      width: 403
+      height: 613
+    spriteID: 2434c9eb82438f942a847754096ba974
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1648}
+    spritePosition: {x: 2159, y: 118}
+  - name: Arrow_Down_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2269
+      width: 403
+      height: 613
+    spriteID: ee7acdad2203a2a4c912d3994946307d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2269}
+    spritePosition: {x: 2159, y: 818}
+  - name: Arrow_Up_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2890
+      width: 403
+      height: 613
+    spriteID: 2823894abdcaf4b4c97ea0610acc4585
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2890}
+    spritePosition: {x: 1660, y: 118}
+  - name: Arrow_Up_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 4
+      width: 403
+      height: 613
+    spriteID: b7a4aaefe0f4072478861ad22919deaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 4}
+    spritePosition: {x: 1659, y: 818}
+  - name: Arrow_Left_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 620
+      height: 403
+    spriteID: 4e3c751ad92a9c74cb7885418393d6f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 850, y: 223}
+  - name: Arrow_Left_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 415
+      width: 620
+      height: 403
+    spriteID: 187cd0b154bb7f64f8ae87099be2a870
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 415}
+    spritePosition: {x: 850, y: 923}
+  - name: Arrow_Right_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 826
+      width: 620
+      height: 403
+    spriteID: b1be5f69801eece4c902d2922edd2e3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 826}
+    spritePosition: {x: 150, y: 223}
+  - name: Arrow_Right_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1237
+      width: 620
+      height: 403
+    spriteID: 6e0ee38b6ed002d4b9923bb8256906ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1237}
+    spritePosition: {x: 150, y: 923}
+  - name: Bolt_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 3511
+      width: 157
+      height: 327
+    spriteID: 786edaa5026089344b6cb9dafb51fa29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 3511}
+    spritePosition: {x: 4482, y: 1661}
+  - name: Bolt_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 1648
+      width: 157
+      height: 327
+    spriteID: 0464ee37fb01b0241ae288568edbfba1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 1648}
+    spritePosition: {x: 4282, y: 1660}
+  - name: Water_Drop_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 2269
+      width: 161
+      height: 244
+    spriteID: a4d22ec3ed80d4648af1a92d802acd03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 2269}
+    spritePosition: {x: 4030, y: 1703}
+  - name: Water_Drop_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 2521
+      width: 161
+      height: 244
+    spriteID: 1ecd87758cbbd3348abdc2cbbd4dedc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 2521}
+    spritePosition: {x: 3780, y: 1703}
+  - name: Cash_Icon_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 438
+      y: 3846
+      width: 169
+      height: 242
+    spriteID: 1fc9c6ca4c95bb842b69c506c1fe0ba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 3846}
+    spritePosition: {x: 3526, y: 1704}
+  - name: Cash_Icon_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 1983
+      width: 169
+      height: 242
+    spriteID: f9e5513e75c7eb44da721e15889ff20a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 1983}
+    spritePosition: {x: 3226, y: 1704}
+  - name: Coin_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3511
+      width: 426
+      height: 426
+    spriteID: a0ac7b37e8680ba498d57af70d6f9a70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3511}
+    spritePosition: {x: 2647, y: 1612}
+  - name: Coin_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1043
+      y: 4
+      width: 426
+      height: 426
+    spriteID: e75a7cc46cffdb64e86c9371ab81de95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1043, y: 4}
+    spritePosition: {x: 2147, y: 1612}
+  - name: Diamond_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 625
+      width: 381
+      height: 368
+    spriteID: 56041d7999ad1d6408d07c52711afaaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 625}
+    spritePosition: {x: 1670, y: 1641}
+  - name: Diamond_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 1001
+      width: 381
+      height: 368
+    spriteID: 95f904a47562da64fa9299e658b6d536
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 1001}
+    spritePosition: {x: 1170, y: 1641}
+  - name: Heart_White
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 1377
+      width: 398
+      height: 341
+    spriteID: bebe341ebfd8c36419701df1ebed3698
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 1377}
+    spritePosition: {x: 661, y: 1654}
+  - name: Heart_Regular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 1726
+      width: 398
+      height: 341
+    spriteID: a482ca99ad142894f90604a6b2a82046
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 1726}
+    spritePosition: {x: 161, y: 1654}
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Arrow_Down_White
+    spriteName: Arrow_Down_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2434c9eb82438f942a847754096ba974
+    layerID: 44
+    mosaicPosition: {x: 4, y: 1648}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Down_Regular
+    spriteName: Arrow_Down_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ee7acdad2203a2a4c912d3994946307d
+    layerID: 43
+    mosaicPosition: {x: 4, y: 2269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Up_White
+    spriteName: Arrow_Up_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2823894abdcaf4b4c97ea0610acc4585
+    layerID: 42
+    mosaicPosition: {x: 4, y: 2890}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Up_Regular
+    spriteName: Arrow_Up_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b7a4aaefe0f4072478861ad22919deaa
+    layerID: 41
+    mosaicPosition: {x: 632, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Left_White
+    spriteName: Arrow_Left_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4e3c751ad92a9c74cb7885418393d6f2
+    layerID: 40
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Left_Regular
+    spriteName: Arrow_Left_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 187cd0b154bb7f64f8ae87099be2a870
+    layerID: 39
+    mosaicPosition: {x: 4, y: 415}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Right_White
+    spriteName: Arrow_Right_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b1be5f69801eece4c902d2922edd2e3a
+    layerID: 38
+    mosaicPosition: {x: 4, y: 826}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Right_Regular
+    spriteName: Arrow_Right_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6e0ee38b6ed002d4b9923bb8256906ab
+    layerID: 36
+    mosaicPosition: {x: 4, y: 1237}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bolt_White
+    spriteName: Bolt_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 786edaa5026089344b6cb9dafb51fa29
+    layerID: 54
+    mosaicPosition: {x: 438, y: 3511}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bolt_Regular
+    spriteName: Bolt_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0464ee37fb01b0241ae288568edbfba1
+    layerID: 53
+    mosaicPosition: {x: 415, y: 1648}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Water_Drop_White
+    spriteName: Water_Drop_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a4d22ec3ed80d4648af1a92d802acd03
+    layerID: 50
+    mosaicPosition: {x: 415, y: 2269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Water_Drop_Regular
+    spriteName: Water_Drop_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1ecd87758cbbd3348abdc2cbbd4dedc2
+    layerID: 48
+    mosaicPosition: {x: 415, y: 2521}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cash_Icon_White
+    spriteName: Cash_Icon_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1fc9c6ca4c95bb842b69c506c1fe0ba0
+    layerID: 30
+    mosaicPosition: {x: 438, y: 3846}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cash_Icon_Regular
+    spriteName: Cash_Icon_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f9e5513e75c7eb44da721e15889ff20a
+    layerID: 16
+    mosaicPosition: {x: 415, y: 1983}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Coin_White
+    spriteName: Coin_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a0ac7b37e8680ba498d57af70d6f9a70
+    layerID: 35
+    mosaicPosition: {x: 4, y: 3511}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Coin_Regular
+    spriteName: Coin_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e75a7cc46cffdb64e86c9371ab81de95
+    layerID: 19
+    mosaicPosition: {x: 1043, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Diamond_White
+    spriteName: Diamond_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56041d7999ad1d6408d07c52711afaaf
+    layerID: 28
+    mosaicPosition: {x: 632, y: 625}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Diamond_Regular
+    spriteName: Diamond_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 95f904a47562da64fa9299e658b6d536
+    layerID: 6
+    mosaicPosition: {x: 632, y: 1001}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Heart_White
+    spriteName: Heart_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bebe341ebfd8c36419701df1ebed3698
+    layerID: 2
+    mosaicPosition: {x: 632, y: 1377}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Heart_Regular
+    spriteName: Heart_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a482ca99ad142894f90604a6b2a82046
+    layerID: 4
+    mosaicPosition: {x: 632, y: 1726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c7aa70863f1437c4a86a66e7202dfca5
+    layerID: 1
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Arrow_Down_White
+    spriteName: Arrow_Down_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2434c9eb82438f942a847754096ba974
+    layerID: 44
+    mosaicPosition: {x: 4, y: 1648}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Down_Regular
+    spriteName: Arrow_Down_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ee7acdad2203a2a4c912d3994946307d
+    layerID: 43
+    mosaicPosition: {x: 4, y: 2269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Up_White
+    spriteName: Arrow_Up_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2823894abdcaf4b4c97ea0610acc4585
+    layerID: 42
+    mosaicPosition: {x: 4, y: 2890}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Up_Regular
+    spriteName: Arrow_Up_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b7a4aaefe0f4072478861ad22919deaa
+    layerID: 41
+    mosaicPosition: {x: 632, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Left_White
+    spriteName: Arrow_Left_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4e3c751ad92a9c74cb7885418393d6f2
+    layerID: 40
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Left_Regular
+    spriteName: Arrow_Left_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 187cd0b154bb7f64f8ae87099be2a870
+    layerID: 39
+    mosaicPosition: {x: 4, y: 415}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Right_White
+    spriteName: Arrow_Right_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b1be5f69801eece4c902d2922edd2e3a
+    layerID: 38
+    mosaicPosition: {x: 4, y: 826}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arrow_Right_Regular
+    spriteName: Arrow_Right_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6e0ee38b6ed002d4b9923bb8256906ab
+    layerID: 36
+    mosaicPosition: {x: 4, y: 1237}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bolt_White
+    spriteName: Bolt_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 786edaa5026089344b6cb9dafb51fa29
+    layerID: 54
+    mosaicPosition: {x: 438, y: 3511}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bolt_Regular
+    spriteName: Bolt_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0464ee37fb01b0241ae288568edbfba1
+    layerID: 53
+    mosaicPosition: {x: 415, y: 1648}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Water_Drop_White
+    spriteName: Water_Drop_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a4d22ec3ed80d4648af1a92d802acd03
+    layerID: 50
+    mosaicPosition: {x: 415, y: 2269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Water_Drop_Regular
+    spriteName: Water_Drop_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1ecd87758cbbd3348abdc2cbbd4dedc2
+    layerID: 48
+    mosaicPosition: {x: 415, y: 2521}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cash_Icon_White
+    spriteName: Cash_Icon_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1fc9c6ca4c95bb842b69c506c1fe0ba0
+    layerID: 30
+    mosaicPosition: {x: 438, y: 3846}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cash_Icon_Regular
+    spriteName: Cash_Icon_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f9e5513e75c7eb44da721e15889ff20a
+    layerID: 16
+    mosaicPosition: {x: 415, y: 1983}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Coin_White
+    spriteName: Coin_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a0ac7b37e8680ba498d57af70d6f9a70
+    layerID: 35
+    mosaicPosition: {x: 4, y: 3511}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Coin_Regular
+    spriteName: Coin_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e75a7cc46cffdb64e86c9371ab81de95
+    layerID: 19
+    mosaicPosition: {x: 1043, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Diamond_White
+    spriteName: Diamond_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56041d7999ad1d6408d07c52711afaaf
+    layerID: 28
+    mosaicPosition: {x: 632, y: 625}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Diamond_Regular
+    spriteName: Diamond_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 95f904a47562da64fa9299e658b6d536
+    layerID: 6
+    mosaicPosition: {x: 632, y: 1001}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Heart_White
+    spriteName: Heart_White
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bebe341ebfd8c36419701df1ebed3698
+    layerID: 2
+    mosaicPosition: {x: 632, y: 1377}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Heart_Regular
+    spriteName: Heart_Regular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a482ca99ad142894f90604a6b2a82046
+    layerID: 4
+    mosaicPosition: {x: 632, y: 1726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c7aa70863f1437c4a86a66e7202dfca5
+    layerID: 1
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638414541518268820
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

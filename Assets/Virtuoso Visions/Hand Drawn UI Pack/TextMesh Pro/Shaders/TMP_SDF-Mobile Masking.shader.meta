@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bc1ede39bf3643ee8e493720e4259791
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275183
+  packageName: Hand Drawn UI Pack
+  packageVersion: 1.0
+  assetPath: Assets/Virtuoso Visions/Hand Drawn UI Pack/TextMesh Pro/Shaders/TMP_SDF-Mobile
+    Masking.shader
+  uploadId: 639364
