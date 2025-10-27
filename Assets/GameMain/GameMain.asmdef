@@ -3,7 +3,8 @@
     "rootNamespace": "GameMain",
     "references": [
         "GameFramework",
-        "Unity.Addressables"
+        "Unity.Addressables",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
