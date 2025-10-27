@@ -23,9 +23,16 @@ namespace GameFramework
                 throw new Exception($"You must get module by interface, but '{interfaceType.FullName}' is not.");
             }
 
-            if (!interfaceType.FullName.StartsWith("GameFramework.I"))
+            // 檢查是否為 GameFramework 命名空間下的介面
+            if (!interfaceType.FullName.StartsWith("GameFramework."))
             {
                 throw new Exception($"You must get a Game Framework module, but '{interfaceType.FullName}' is not.");
+            }
+
+            // 檢查介面名稱是否以 I 開頭
+            if (!interfaceType.Name.StartsWith("I"))
+            {
+                throw new Exception($"You must get module by interface, but '{interfaceType.Name}' does not start with 'I'.");
             }
 
             // 檢查是否已經創建
@@ -38,11 +45,30 @@ namespace GameFramework
             }
 
             // 尚未創建，使用預設規則創建
-            string moduleName = interfaceType.FullName.Substring(17); // 移除 "GameFramework.I" 前綴
-            Type moduleType = Type.GetType($"GameFramework.{moduleName}");
+            // 從完整命名空間中提取類別名稱，移除 I 前綴
+            string moduleName = interfaceType.Name.Substring(1); // 移除 "I" 前綴
+            string moduleNamespace = interfaceType.Namespace; // 例如: GameFramework.UI
+            string fullTypeName = $"{moduleNamespace}.{moduleName}";
+
+            // 先嘗試從當前程式集查找類型
+            Type moduleType = interfaceType.Assembly.GetType(fullTypeName);
+
+            // 如果找不到，嘗試從所有已載入的程式集查找
             if (moduleType == null)
             {
-                throw new Exception($"Can not find Game Framework module type '{moduleName}'.");
+                foreach (var assembly in System.AppDomain.CurrentDomain.GetAssemblies())
+                {
+                    moduleType = assembly.GetType(fullTypeName);
+                    if (moduleType != null)
+                    {
+                        break;
+                    }
+                }
+            }
+
+            if (moduleType == null)
+            {
+                throw new Exception($"Can not find Game Framework module type '{fullTypeName}'.");
             }
 
             return GetModule(moduleType) as T;
