@@ -1,0 +1,16 @@
+0123456789
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+！？。，、：；「」『』（）【】
+一二三四五六七八九十百千萬
+鋼彈卡牌遊戲查詢搜尋篩選
+類型顏色稀有度等級成本攻擊防禦
+紅藍黃綠紫白黑
+機動戰士突擊自由正義命運飛翼
+Wing Gundam Zero
+UNIT PILOT COMMAND BASE
+Card Type Rarity Level Cost Attack Defense HP
+稀有度普通罕見超稀有傳說
+效果特徵系列技能
+載入中請稍候
+確定取消返回重設
